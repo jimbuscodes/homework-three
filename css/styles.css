@@ -44,6 +44,14 @@ p {
   width: 100px;
 }
 
+.result {
+  width: 100%;
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
 input {
   height: 20px;
   margin-top: 5px;
@@ -55,6 +63,7 @@ button {
   margin-left: 120px;
   margin-bottom: 5px;
   width: 60px;
+  border-radius: 5px;
 }
 
 .spacer {
