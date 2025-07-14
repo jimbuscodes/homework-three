@@ -20,8 +20,39 @@ p {
 .form-container {
   display: flex;
   flex-direction: column;
+  width: 350px;
+  margin-left: 40px;
+  background-color: gray;
 }
 
-.row {
-  display: flex;
+.form-container.row {
+  flex-direction: row;
+}
+
+h1 {
+  width: 390px;
+  padding: 10px;
+  background-color: #008000;
+  color: #fff;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+p {
+  padding-top: 5px;
+  margin-right: 20px;
+  width: 100px;
+}
+
+input {
+  height: 20px;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #ff0000;
+  color: #fff;
+  margin-left: 120px;
+  margin-bottom: 5px;
+  width: 60px;
 }
