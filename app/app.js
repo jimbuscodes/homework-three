@@ -1,3 +1,5 @@
+// INCORRECT METHOD OF CALCULATING INTEREST MUST FIX
+
 let calculateBtnElement = document.getElementById("calculateBtn");
 
 calculateBtnElement.addEventListener("click", function () {
